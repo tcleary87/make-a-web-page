@@ -1,0 +1,104 @@
+  
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>STAGE 1 Project</title>
+  	<link rel="stylesheet" href="stage1css.css">
+  </head>
+  <body>
+  	  <div class ="TOC">
+  	  	<p class ="toctitle">Table of Contents</p>
+  	  	<ol>
+  	  		<li><a href="#lesson1">Lesson 1: The Basics of the Web and HTML</a>
+  	  			<ul>
+  	  				<li><a href="#lesson1.1">The World Wide Web</a></li>
+  	  				<li><a href="#lesson1.2">HTML</a></li>
+  	  				<li><a href="#lesson1.3">Tags and Elements</a></li>
+  	  				<li><a href="#lesson1.4">Silly Computers, Intuition is for Humans.</a></li>
+  	  				<li><a href="#lesson1.5">Inline vs. Block Elements</a></li>
+  	  			</ul>  	  		
+  	  		</li>
+  	  		<li><a href="#lesson2">Lesson 2: Creating a Structured Document with HTML</a>
+  	  			<ul>
+  	  				<li><a href="#lesson2.1">The DOM</a></li>
+  	  				<li><a href="#lesson2.2">Boxes Inside of Boxes</a></li>
+  	  				<li><a href="#lesson2.3">Using the Right Tools</a></li>
+  	  			</ul>
+  	  		</li>
+  	  		<li><a href="#lesson3">Lesson 3: Adding CSS Style to HTML Structure</a>
+  	  		    <ul>
+  	  		    	<li><a href="#lesson3.1">Cascading Style Sheets</a></li>
+  	  		    	<li><a href="#lesson3.2">The Box Model</a></li>
+  	  		    	<li><a href="#lesson3.3">Don't Repeat Yourself!</a></li>
+  	  		    </ul>	
+  	  		</li>
+  	  	</ol>
+  	  </div>
+	  <div class ="lesson" id="lesson1">
+		  <h2 class="title">Lesson 1: The Basics of the Web and HTML</h2>
+		
+		  <div class ="concept" id="lesson1.1">
+		    <h4 class="subtitle">The World Wide Web</h4>
+		    <p class="notes">The web, invented in the early 90s, is a large network of tons of computers that are all able to communicate with one another. Computers send requests to each other using HTTP(Hypertext Transfer Protocol).</p>
+		  </div>
+		
+		  <div class = "concept" id="lesson1.2">
+		    <h4 class="subtitle">HTML</h4>
+		    <p class="notes">HTML (Hypertext Markup Language) is the language used to form the structure of most pages on the internet. HTML consists of text content and the markup which affects its layout.</p>
+		  </div>
+		
+		  <div class ="concept" id="lesson1.3">
+		    <h4 class="subtitle">Tags and Elements</h4>
+		    <p class="notes">HTML documents use tags like <b>&lt;b&gt;</b> and <b>&lt;p&gt;</b> to define the layout of the content. These tags, in combination with their content, makeup HTML elements. Most pages are made up of many elements. Most tages have content, but some tags like <b>&lt;img&gt;</b> do not contain content and are considered void.</p>
+		  </div>
+		
+		  <div class="concept" id="lesson1.4">
+		    <h4 class="subtitle">Silly Computers. Intuition is for Humans.</h4>
+		    <p class="notes">Computers, while powerful, are actually very simplistic and lack the intuition of humans. Computers only posess the ability to follow all orders literally and can therefore be very unforgiving of mistakes made in programming.</p>
+		  </div>
+		
+		  <div class="concept" id="lesson1.5">
+		    <h4 class="subtitle">Inline vs. Block Elements</h4>
+		    <p class="notes">While inline elements, such as an image, do not affect the spacing, block elements place their content in an invisible box that can be modified.</p>
+		  </div>
+	  </div>
+
+	  <div class ="lesson" id="lesson2">
+		  <h2 class="title">Lesson 2: Creating a Structured Document with HTML</h2>
+
+		  <div class ="concept" id="lesson2.1">
+			  <h4 class="subtitle">The DOM</h4>
+			  <p class="notes">The DOM (Document Object Model) is the cross platform, cross language, standard convention that is responsible for the tree like structure of the page.</p>
+		  </div>
+
+		  <div class="concept" id="lesson2.2">
+			  <h4 class="subtitle">Boxes Inside of Boxes</h4>
+			  <p class = "notes">The treelike structue exists becuase the HTML divides the page into different boxes, and the boxes can be nested inside of one another. This allows for logical structure that can later be styled by CSS.</p>
+		  </div>
+
+		  <div class ="concept" id="lesson2.3">
+			  <h4 class="subtitle">Using the Right Tools</h4>
+			  <p class = "notes">Because HTML is so specific, the syntax must be exactly correct for the results to be as intended. It is also important that the tree like structure of the boxes on the page be reflected in the indentation of the elements in the HTML. Luckily, there are special text editors, such as Sublime Text, that can make this easier for the programmers using them.</p>
+		  </div>
+	  </div>
+
+	  <div class="lesson" id="lesson3">
+		  <h2 class="title">Lesson 3: Adding CSS Style to HTML Structure</h2>
+		
+		  <div class="concept" id="lesson3.1">
+			  <h4 class="subtitle">Cascading Style Sheets</h4>
+			  <p class="notes">Cascading Style Sheets, or CSS, is code written to control the style of HTML elements. With a CSS declaration, the programmer is able to select HTML elements and assign properties various values.</p>
+		  </div>
+
+		  <div class="concept" id="lesson3.2">
+			  <h4 class="subtitle">The Box Model</h4>
+			  <p class="notes">Becuase HTML elements are held in boxes, it is important to understand the box model when using CSS to set your page layout. The content is surrouded by a padding which is surrounded by the border which is surrounded by a margin.</p>
+		  </div>
+
+		  <div class="concept" id="lesson3.3">
+			  <h4 class="subtitle">Don't Repeat  Yourself!</h4>
+			  <p class="notes">When desiging a webpage, you want to avoid as much repetition as possible in your CSS. If you need to make a change to something you want to be able to do it once and have it affect as much as possible and not have to worry about changing the style for each individual element. By organizing your HTML into the proper elements with well chosen classes you can save yourself a lot of trouble.</p>
+		  </div>
+	  </div>
+  </body>
+</html>

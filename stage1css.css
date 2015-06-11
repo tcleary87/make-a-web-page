@@ -1,0 +1,47 @@
+body {
+	font-family: Verdana, sans-serif;
+	padding: 20px 10px;
+	max-width: 2000px;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
+h2 {
+	color: red;
+	text-align: center;
+}
+
+.lesson {
+	background-color: black;
+	padding: 10px;
+	border-radius: 20px;
+	color: white;
+	margin: 10px auto;
+}
+
+.concept {
+	margin: 10px;
+	background-color: gray;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.subtitle {
+	color: blue;
+	text-align: center;
+	font-size: 30px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.toctitle {
+	font-size: 35px;
+
+}
